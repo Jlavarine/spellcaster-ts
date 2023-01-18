@@ -10,7 +10,7 @@ I wanted to learn and implement Typescript by recreating a previous project of m
 
 ## Deployed Page
 
-You can access deployed application [HERE!](https://spellcaster.vercel.app/)
+You can access deployed application [HERE!](https://spellcaster-ts.vercel.app/)
 
 ## Technologies
 - Typescript
