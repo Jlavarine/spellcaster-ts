@@ -1,0 +1,28 @@
+nav {
+    margin: 0;
+  }
+  
+  .desc-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .page-title {
+    font-size: 50px;
+    color: #C70039;
+    margin-left: 20px;
+  }
+  
+  .home-btn, .favorites-btn {
+    border-radius: 20px;
+    width: 150px;
+    font-size: 25px;
+    margin-right: 20px;
+  }
+  
+  .home-btn:hover {
+    transform: scale(1.05);
+    transition: 800ms;
+    border: solid yellow 3px;
+  }
+  

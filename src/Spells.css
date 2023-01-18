@@ -1,0 +1,25 @@
+.spell {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 150px;
+    margin-left: 20px;
+  }
+  
+  .spell-image {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    border-radius: 160px;
+  }
+  
+  .spell-image:hover {
+    transform: scale(1.05);
+    transition: 800ms;
+    border: solid yellow 3px;
+  }
+  
+  .spell-name {
+    font-size: 25px;
+    color: #D6CCA9;
+  }
+  
