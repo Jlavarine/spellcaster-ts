@@ -1,46 +1,72 @@
-# Getting Started with Create React App
+# Spellcaster
+
+## Overview
+
+Spellcaster is an application that allows a user to browse through a list of spells from the 5th Edition of Dungeons and Dragons, click on the spell "cards", view spell details, such as name, casters, components, description, casting time, range, and school, and also search for a specific spell using the search bar. The User can also favorite spells for easier reference for their most used spells.
+
+This application is an update on a previous application found [HERE!](https://github.com/Jlavarine/Spellcaster)
+
+I wanted to learn and implement Typescript by recreating a previous project of mine.
+
+## Deployed Page
+
+You can access deployed application [HERE!](https://spellcaster.vercel.app/)
+
+## Technologies
+- Typescript
+- React
+- React Router
+- HTML
+- CSS
+- Cypress
+
+## Contributors
+
+- [Jacob Lavarine](https://github.com/Jlavarine)
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Set Up
 
-In the project directory, you can run:
+1. Start by going [here](https://github.com/Jlavarine/Spellcaster). From here you will want to click on the green rectangular button titled 'Code'. This should open a drop down menu where you should see a link. To the left of the link there should be an icon with two over lapping squares. You can click the icon to copy the link.
+2. You will want to clone down the repo to you terminal using `git clone git@github.com:Jlavarine/Spellcaster.git`.
+3. Once you have cloned the repo, change into the directory and install the project dependencies. Run `npm install` or `npm i` to install project dependencies.
+4. Run `npm start` in the terminal to see the page. You will need to copy and paste the local server from the terminal and paste it into your browser. The local server should be simialiar to, "http://localhost:3000/". `Control + C` is the command to stop running the local server. Closing the terminal without stopping the server first could allow the server to continue to run in the background and cause problems.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Homepage:
+- On the homepage, the user can view all of the spells from Dungeons and Dragons 5th Edition.
+- The user can click any spell to be redirected to that spell's details page.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+![Spell HOME](https://user-images.githubusercontent.com/96446170/173198049-c203a693-b86c-4f80-b367-f7a03f624f8b.gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Searching for a spell
+- On the homepage, the user can search all of the spells from Dungeons and Dragons 5th Edition for a specific spell.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Spell SEARCH](https://user-images.githubusercontent.com/96446170/173198182-86e197d7-6b53-486c-ae3f-902a0052d371.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Spell Details:
+- On the spell details page, user is greeted with the clicked spell's details(such as name, casters, components, description, casting time, range, and school ).
+- User can click on the home button to go back to the homepage, or the favorites button to go to the favorites page.
 
-### `npm run eject`
+![Spell Details](https://user-images.githubusercontent.com/96446170/173198130-9108a176-7a31-41a3-bae0-afef277b831a.gif)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Favorited Spells:
+- On the  favorited spells page,  the user is greeted with all of their favorited spells.
+- The user can click any spell to be redirected to that spell's details page.
+- User can click on the home button to go back to the homepage.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Spell Favorite](https://user-images.githubusercontent.com/96446170/173198144-51e31d77-f933-4c26-bc16-a493d993fc7e.gif)
 
-## Learn More
+#### Final Thoughts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- I really enjoyed taking the opportunity to self teach Typescript and use my new knowledge to update a previous project of mine.
