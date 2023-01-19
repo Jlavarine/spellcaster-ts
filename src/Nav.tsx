@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import logo from "./images/Spellcaster Logo.png";
 import './Nav.css'
 
 interface NavProps {
@@ -12,7 +13,9 @@ const Nav = ({searchValue, handleChange, resetSearch}: NavProps) => {
   return (
     <nav>
       <div className='nav'>
-        <h1 className='title'>Spellcaster</h1>
+      <Link to='/' style={{ textDecoration: 'none' }}>
+        <img src={logo} alt="SpellCaster logo" />
+      </Link>
         <form>
           <input
           className='spell-search'
